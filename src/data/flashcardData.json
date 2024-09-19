@@ -1,0 +1,177 @@
+[
+  {
+    "id": "1",
+    "question": "What is a closure in JavaScript?",
+    "answer": "A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope."
+  },
+  {
+    "id": "2",
+    "question": "Explain the concept of 'hoisting' in JavaScript.",
+    "answer": "Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope during the compilation phase. Variable and function declarations are hoisted."
+  },
+  {
+    "id": "3",
+    "question": "What is the difference between 'null' and 'undefined'?",
+    "answer": "'null' is an assignment value that represents no value, while 'undefined' indicates that a variable has been declared but has not yet been assigned a value."
+  },
+  {
+    "id": "4",
+    "question": "What are JavaScript Promises?",
+    "answer": "Promises are objects representing the eventual completion or failure of an asynchronous operation and its resulting value. They have three states: pending, fulfilled, or rejected."
+  },
+  {
+    "id": "5",
+    "question": "What is 'this' keyword in JavaScript?",
+    "answer": "'this' refers to the object that is executing the current function. Its value depends on the context in which the function is called."
+  },
+  {
+    "id": "6",
+    "question": "What is event delegation?",
+    "answer": "Event delegation is a technique of using a single event listener to manage events for multiple child elements. It relies on event bubbling to handle events at a higher level in the DOM."
+  },
+  {
+    "id": "7",
+    "question": "What is the difference between '== ' and '===' in JavaScript?",
+    "answer": "'==' performs type coercion before comparison, while '===' checks for both value and type equality without type coercion."
+  },
+  {
+    "id": "8",
+    "question": "What is a JavaScript generator function?",
+    "answer": "A generator function is a special type of function that can be paused and resumed, allowing for the generation of a sequence of values over time. It uses the 'function*' syntax and 'yield' keyword."
+  },
+  {
+    "id": "9",
+    "question": "What is the purpose of the 'bind' method in JavaScript?",
+    "answer": "The 'bind' method creates a new function that, when called, has its 'this' keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is invoked."
+  },
+  {
+    "id": "10",
+    "question": "What are JavaScript decorators?",
+    "answer": "Decorators are a proposed feature in JavaScript that allow you to modify the behavior of classes or methods. They are not yet part of the ECMAScript standard but are available in some transpilers."
+  },
+  {
+    "id": "11",
+    "question": "What is the event loop in JavaScript?",
+    "answer": "The event loop is a mechanism that handles asynchronous operations in JavaScript. It processes the event queue, executing callbacks and tasks while ensuring non-blocking execution of code."
+  },
+  {
+    "id": "12",
+    "question": "What are JavaScript modules?",
+    "answer": "JavaScript modules are a way to encapsulate and export code into separate files, which can then be imported into other files. This helps in organizing and maintaining code effectively."
+  },
+  {
+    "id": "13",
+    "question": "Explain 'prototype inheritance' in JavaScript.",
+    "answer": "Prototype inheritance is a mechanism by which one object inherits properties and methods from another object via the prototype chain. Every JavaScript object has a prototype, which is used for property and method lookups."
+  },
+  {
+    "id": "14",
+    "question": "What is the 'typeof' operator used for?",
+    "answer": "'typeof' operator returns a string indicating the type of the unevaluated operand. It can be used to determine the type of a variable or expression."
+  },
+  {
+    "id": "15",
+    "question": "What is a 'map' and 'filter' method in JavaScript?",
+    "answer": "'map' is used to create a new array by applying a function to each element of an existing array. 'filter' creates a new array with all elements that pass a test implemented by a provided function."
+  },
+  {
+    "id": "16",
+    "question": "What are 'async' and 'await' in JavaScript?",
+    "answer": "'async' and 'await' are syntax used to work with asynchronous code. 'async' marks a function as asynchronous, and 'await' pauses the function execution until the promise is resolved."
+  },
+  {
+    "id": "17",
+    "question": "What is the 'spread' operator in JavaScript?",
+    "answer": "The 'spread' operator (...) is used to expand an iterable (such as an array) into more elements. It can be used in function calls, array literals, and object literals."
+  },
+  {
+    "id": "18",
+    "question": "What is 'destructuring assignment' in JavaScript?",
+    "answer": "Destructuring assignment allows you to unpack values from arrays or properties from objects into distinct variables using a syntax that mirrors the construction of array and object literals."
+  },
+  {
+    "id": "19",
+    "question": "What is a 'proxy' in JavaScript?",
+    "answer": "A proxy is an object that wraps another object or function and allows you to define custom behavior for fundamental operations (e.g., property lookup, assignment, enumeration)."
+  },
+  {
+    "id": "20",
+    "question": "What is 'Object.defineProperty' used for?",
+    "answer": "'Object.defineProperty' is used to define a new property or modify an existing property on an object, allowing you to set property attributes such as enumerability, writability, and configurability."
+  },
+  {
+    "id": "21",
+    "question": "What is 'currying' in JavaScript?",
+    "answer": "Currying is a technique of transforming a function that takes multiple arguments into a series of functions that each take a single argument. It allows partial application of functions."
+  },
+  {
+    "id": "22",
+    "question": "What are 'IIFE' and their purpose?",
+    "answer": "An Immediately Invoked Function Expression (IIFE) is a function that runs as soon as it is defined. It helps in creating a local scope to avoid polluting the global namespace."
+  },
+  {
+    "id": "23",
+    "question": "What is 'Function.prototype.call' and 'Function.prototype.apply'?",
+    "answer": "'call' and 'apply' are methods that allow you to call a function with a specific 'this' context and arguments. 'call' takes arguments individually, while 'apply' takes an array of arguments."
+  },
+  {
+    "id": "24",
+    "question": "Explain the concept of 'event bubbling'.",
+    "answer": "Event bubbling is a type of event propagation in the DOM where an event starts from the innermost target element and bubbles up to the outer elements, triggering event handlers along the way."
+  },
+  {
+    "id": "25",
+    "question": "What is the 'setTimeout' function used for?",
+    "answer": "'setTimeout' is used to execute a function or code snippet after a specified delay in milliseconds. It allows you to schedule tasks for future execution."
+  },
+  {
+    "id": "26",
+    "question": "What is the purpose of 'Object.create'?",
+    "answer": "'Object.create' creates a new object with the specified prototype object and properties. It allows you to set up inheritance and define properties on the newly created object."
+  },
+  {
+    "id": "27",
+    "question": "What is 'prototype chaining'?",
+    "answer": "Prototype chaining is a mechanism by which objects inherit properties from other objects through their prototype chain. It allows objects to share methods and properties."
+  },
+  {
+    "id": "28",
+    "question": "What is 'memoization' in JavaScript?",
+    "answer": "Memoization is an optimization technique where you cache the results of expensive function calls and reuse them when the same inputs occur again, improving performance."
+  },
+  {
+    "id": "29",
+    "question": "What is 'Object.assign' used for?",
+    "answer": "'Object.assign' is used to copy the values of all enumerable properties from one or more source objects to a target object. It can also be used to merge objects."
+  },
+  {
+    "id": "30",
+    "question": "Explain 'function currying' with an example.",
+    "answer": "Function currying is a technique where a function that takes multiple arguments is transformed into a series of functions each taking a single argument. Example: `const add = a => b => a + b;`."
+  },
+  {
+    "id": "31",
+    "question": "What is 'Array.prototype.reduce' used for?",
+    "answer": "'reduce' is used to execute a reducer function on each element of an array, resulting in a single output value. It can be used for operations like summing values or accumulating results."
+  },
+  {
+    "id": "32",
+    "question": "What is 'JSON.stringify' and 'JSON.parse'?",
+    "answer": "'JSON.stringify' converts a JavaScript object into a JSON string, while 'JSON.parse' parses a JSON string and converts it back into a JavaScript object."
+  },
+  {
+    "id": "33",
+    "question": "What is the 'bind' method used for in JavaScript?",
+    "answer": "'bind' creates a new function that, when called, has its 'this' keyword set to the provided value and can optionally pre-fill arguments."
+  },
+  {
+    "id": "34",
+    "question": "What are 'Symbol' types in JavaScript?",
+    "answer": "Symbols are a new primitive data type introduced in ES6, used to create unique identifiers for object properties. They are immutable and unique."
+  },
+  {
+    "id": "35",
+    "question": "What is 'Object.freeze' used for?",
+    "answer": "'Object.freeze' prevents modification of an object's properties, including preventing new properties from being added or existing properties from being removed or changed."
+  }
+]

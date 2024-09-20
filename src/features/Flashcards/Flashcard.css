@@ -1,0 +1,44 @@
+.flashcard {
+  height: 200px;
+  max-width: 400px;
+  width: 100%;
+  background-color: #efefef;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.flashcard-position {
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.button .arrow {
+  margin-left: 8px;
+  font-size: 18px;
+}

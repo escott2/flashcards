@@ -1,11 +1,17 @@
+import { useState } from "react";
+import "./Flashcard.css";
+
 const Flashcard = ({ question, answer }) => {
+  const [displayQuestion, setDisplayQuestion] = useState(true);
+
+  const handleToggleCard = () => {
+    setDisplayQuestion((prevValue) => !prevValue);
+  };
+
   return (
-    <>
-      <h2>Front</h2>
-      {question}
-      <h2>Back</h2>
-      {answer}
-    </>
+    <div onClick={handleToggleCard} className="flashcard">
+      {displayQuestion ? <div>{question}</div> : <div>{answer}</div>}
+    </div>
   );
 };
 

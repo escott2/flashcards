@@ -1,1 +1,1 @@
-export { Flashcards } from "./Flashcards";
+export { Flashcards, SingleCardLayout } from "./Flashcards";
